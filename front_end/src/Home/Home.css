@@ -1,0 +1,99 @@
+.right{
+    bottom:600px !important;
+}
+.heightt{
+    height:600px;
+}
+
+.messages{
+    
+    
+    background-color:rgb(192, 191, 191);
+    width: 650px;
+height:500px;
+FLOAT: left;
+margin-left: 5%;
+padding: 1%;
+
+
+
+}
+.wid{width:400px}
+.send{width:100px}
+#container {
+  height: 500px;
+  width: 100%;
+    overflow-y:auto;
+
+    display: flex;
+  }
+  #leftThing {
+    width: 25%;
+    background-color: white;
+  }
+  #content {
+    width: 50%;
+    background-color:black;
+    height: 500px;
+    overflow-y:scroll;
+    border: solid 1px black;
+  }
+
+  #content::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+  }
+  
+  #content::-webkit-scrollbar-track {
+    background: rgb(187, 143, 62);        /* color of the tracking area */
+  }
+  
+  #content::-webkit-scrollbar-thumb {
+    background-color: white;    /* color of the scroll thumb */
+    border-radius: 6px; 
+    height: 35px;      /* roundness of the scroll thumb */
+    border: 2px solid rgb(156, 129, 77);  /* creates padding around scroll thumb */
+  }
+
+  #rightThing {
+    width: 25%;
+    background-color: white;
+  }
+  .hov:hover{
+    background-color: rgb(79, 111, 144);
+    opacity:1;
+
+  }
+  .hov{
+    width: 100%;
+    height:  20%;
+  }
+  .wid{
+    width: 10px !important;
+  }
+ 
+  .brodering{
+ border-bottom: 1px solid black;
+  }
+ 
+ 
+  .w{
+    width: 10px !important;
+  }
+  .pad{
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  body::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(187, 143, 62);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: white;    /* color of the scroll thumb */
+    border-radius: 6px; 
+    height: 15px;      /* roundness of the scroll thumb */
+    border: 2px solid rgb(156, 129, 77);  /* creates padding around scroll thumb */
+  }
